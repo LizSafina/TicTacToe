@@ -1,0 +1,44 @@
+body{
+    background: rgb(206, 250, 250);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.holder{
+    display: flex;
+    justify-content: center;
+}
+.board{
+    display:grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3,100px);
+    height: 300px;
+    width: 300px;
+    background-color: deepskyblue;
+    border:1px solid black;
+    
+}
+.btnHolder{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.resultHolder{
+    display: flex;
+    justify-content: center;
+}
+.cell{
+    font-family: "Permanent Marker", cursive;
+    border:1px solid black;
+    width:100px;
+    height:100px;
+    cursor: pointer;
+}
+
+div.cell:hover{
+   opacity:0.5;
+}
+
